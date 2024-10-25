@@ -1,11 +1,11 @@
-import Image from "next/image";
-import { Button } from "@repo/ui/button";
-import styles from "./page.module.css";
+"use client"
+import { useBalance } from "@repo/store/useBalance"
 
 export default function Home() {
+  const balance = useBalance(); 
   return (
     <div>
-      user app
+      user app {balance}
     </div>
   );
 }
