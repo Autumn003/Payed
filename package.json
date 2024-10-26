@@ -21,6 +21,8 @@
     "packages/*"
   ],
   "dependencies": {
-    "recoil": "^0.7.7"
+    "ioredis": "^5.4.1",
+    "recoil": "^0.7.7",
+    "zod": "^3.23.8"
   }
 }

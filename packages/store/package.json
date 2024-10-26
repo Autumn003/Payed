@@ -10,9 +10,14 @@
   "license": "ISC",
   "description": "",
   "exports": {
-    "./useBalance": "./src/hooks/useBalance"
+    "./useBalance": "./src/hooks/useBalance",
+    "./redisClient": "./src/lib/redisClient.ts",
+    "./userSchema": "./src/schemas/userSchema.ts",
+    "./merchantSchema": "./src/schemas/merchantSchema.ts"
   },
   "dependencies": {
-    "recoil": "^0.7.7"
+    "ioredis": "^5.4.1",
+    "recoil": "^0.7.7",
+    "zod": "^3.23.8"
   }
 }
